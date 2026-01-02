@@ -1,40 +1,107 @@
-🎧 Spotify Analytics Dashboard — Power BI
+🎧 Spotify Analytics Dashboard — Power BI (End-to-End Data Analytics Project)
 
-This project analyzes Spotify Top-50 Song data using Power BI & DAX Query View.
-It provides insights into song trends, popularity, artist performance, album types, and yearly patterns.
+This project is an interactive Spotify Analytics Dashboard built in Power BI using the Spotify Top-50 dataset.
+The dashboard helps analyze song performance, artist trends, popularity metrics, album types, and yearly patterns using DAX Query View & data modeling best practices.
 
-📌 Features
+The goal of this project is to convert raw data into insightful visuals for decision-making for Spotify stakeholders such as music analysts, playlist curators, and marketing teams.
 
-KPI Summary — Total Songs, Artists, Avg Popularity, Avg Duration
+🎯 Project Objectives
 
-Explicit vs Non-Explicit Distribution
+✔ Build an interactive dashboard for song & artist performance tracking
+✔ Provide KPI-level insights for faster business decisions
+✔ Identify trends across year, month, album type, and popularity
+✔ Enable drill-down views for Artists & Songs
+✔ Practice DAX measures, data modeling & analytics storytelling
 
-Album Type Comparison
+🧩 Dashboard Pages & Features
+🏠 Overview Page
 
-Year & Month Trend Insights
+Total Songs, Distinct Artists, Avg Popularity, Avg Duration
 
-Artist-Level & Song-Level Drill-Down Views
+Explicit vs Non-Explicit Comparison
 
-🧾 Documents
+Album Type Distribution (Single vs Album)
 
-Project Report (Case Study)
+Avg Popularity by Year
 
-Business Requirements Document
+Distinct Songs & Popularity Trend by Month
 
-Dashboard Screens & PBIX File
+🎤 Artists Page
 
-🛠 Tech Stack
+Songs per Artist & Distinct Songs
 
-Power BI | DAX | Data Modeling | Analytics Storytelling
+Popularity per Artist
 
-📂 Project Files
+Position-1 Hits per Artist
 
-Dashboard (.pbix)
+Detailed Artist Table (release date, duration, popularity)
 
-Report PDF
+🎵 Songs Page
 
-Business Requirement Doc
+Top Songs by Popularity
 
-Screenshots
+Tracks per Album / Single Distribution
 
-Raw data
+Songs Count & Popularity Comparison
+
+Detailed Song-Level Table
+
+🧠 Business Problem Solved
+
+Before this dashboard, Spotify’s raw Top-50 dataset lacked:
+
+✘ KPI visibility
+✘ Explicit vs non-explicit song comparison
+✘ Artist vs Song drill-down connection
+✘ Trend visibility across time
+
+This dashboard solves these challenges by transforming data into:
+
+✔ Meaningful KPIs
+✔ Trend-based analytics
+✔ Drill-down performance insights
+✔ Actionable storytelling visuals
+
+⚙️ Tech Stack
+
+Power BI
+
+DAX Query View
+
+Data Modeling
+
+Data Visualization & KPI Design
+
+📂 Project Structure
+Spotify-PowerBI-Dashboard/
+│── Spotify Dashboard.pbix
+│── Spotify Project Report.pdf
+│── Business Requirements.docx
+│── Dashboard Screenshots/
+│   ├── Home.png
+│   ├── Overview.png
+│   ├── Artists.png
+│   ├── Songs.png
+│── spotify-top-50-world Data set
+│── README.md
+
+🚀 Key Learnings
+
+✔ Building analytical dashboards using DAX Query View
+✔ Designing KPI-driven visuals
+✔ Improving storytelling in dashboards
+✔ Reinforcing Power BI modeling concepts
+
+🔗 Live Project / Files
+
+📄 Project Case Study (PDF)
+📘 Business Requirement Document
+📁 Power BI File (.pbix)
+
+🙌 Connect With Me
+
+If you'd like feedback or collaboration opportunities — feel free to connect 😊
+
+🏁 Conclusion
+
+This project demonstrates how raw Spotify data can be transformed into insightful business dashboards that support music analytics and data-driven decisions.
